@@ -10,7 +10,8 @@
     "clean": "rimraf dist",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx,.astro .",
     "build-types": "tsc --noEmit --pretty",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "cm": "git add .&&git commit -m feat:'add new post'&&git push"
   },
   "devDependencies": {
     "@astrojs/react": "^3.0.7",
