@@ -15,15 +15,13 @@ const date = new Date().toISOString().split('T')[0];
 const content = `---
 layout: '@/templates/BasePost.astro'
 title: "${title}"
-description: "This is a description of ${title}."
+description: "${title}."
 pubDate: "${date}"
 imgSrc: '/assets/images/image-post2.jpeg'
 imgAlt: 'Image post 2'
 ---
 
-# ${title}
-
-This is the content of ${title} written in Markdown.
+文章摘要：${title} 
 `;
 
 // 生成文件路径
