@@ -28,7 +28,7 @@ const Navbar = () => (
               <path d="M4 20h14"></path>
             </svg>
           }
-          name="Tulip's Blog"
+          name="Xiaotian's Blog"
         />
       </a>
 
